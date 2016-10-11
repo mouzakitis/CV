@@ -186,7 +186,7 @@ main .date{
     color: #f99f3e;
     text-align: left;
     display: inline;
-    margin-right: 240px;
+    float: right;
 }
 main .place{
     font-family: Merriweather;
@@ -211,10 +211,12 @@ main .uni{
     font-size: 21px;
     font-weight: 500;
     margin-bottom:20px;
+
 }
 main .courses ul li{
     padding-bottom: 5px;
     color: #f99f3e;
+    margin-left: 25px;
 }
 main .courses ul li span{
     font-family: Merriweather;
@@ -228,4 +230,33 @@ main .courses ul{
     -webkit-column-gap: 40px;
     column-count: 2;
     column-gap: 40px;
+}
+main #skills{
+    margin-top: 10px;
+ }
+main #skills .title{
+    width: 250px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+main #skills ul{
+    margin-right: 320px;
+    list-style: none;
+    text-align: right;
+}
+main #skills ul li{
+    padding-bottom: 20px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+}
+main #projects{
+    margin-top: 30px;
+}
+main #projects .title{
+    width: 200px;
+    text-align: center;
+}
+main #projects h1{
+    font-family: Lato;
 }
