@@ -186,6 +186,7 @@ main .date{
     color: #f99f3e;
     text-align: left;
     display: inline;
+    margin-right: 240px;
 }
 main .place{
     font-family: Merriweather;
@@ -193,10 +194,10 @@ main .place{
     color: #f99f3e;
     text-align: right;
     display: inline;
-    margin-left: 250px;
+
 }
 main #education{
-    margin-top: 20px;
+    margin-top: 10px;
  }
 main .study{
     font-family: Lato;
@@ -212,11 +213,19 @@ main .uni{
     margin-bottom:20px;
 }
 main .courses ul li{
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     color: #f99f3e;
 }
 main .courses ul li span{
     font-family: Merriweather;
-    font-size:18px;
+    font-size:16px;
     color:black;
+}
+main .courses ul{
+    -moz-column-count: 2;
+    -moz-column-gap: 40px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 40px;
+    column-count: 2;
+    column-gap: 40px;
 }
