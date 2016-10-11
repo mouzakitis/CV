@@ -348,5 +348,5 @@ main #interests .title{
     margin-bottom: 10px;
 }
 main #interests ul li{
-
+    display: inline-block;
 }
