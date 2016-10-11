@@ -302,3 +302,51 @@ main #certificates h3{
     font-size:16px;
     color:black;
 }
+
+main #work{
+    margin-top: 30px;
+}
+main #work .title{
+    width: 210px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main #work h1{
+    font-family: Lato;
+    font-size:26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+main #work h3{
+    font-family: Merriweather;
+    font-size:16px;
+    color:black;
+    margin-bottom: 10px;
+}
+main #lan{
+    margin-top: 35px;
+}
+main #lan .title{
+    width: 130px;
+    margin-bottom: 10px;
+}
+main #lan ul{
+    padding-left: 25px;
+
+}
+main #lan ul li {
+    display: inline-block;
+    padding-left: 100px;
+}
+main #interests{
+    margin-top: 35px;
+}
+main #interests .title{
+    width: 110px;
+    margin-bottom: 10px;
+}
+main #interests ul li{
+
+}
