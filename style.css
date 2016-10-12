@@ -548,3 +548,29 @@ main #interests ul li{
     top: 494px;
     right: 0;
 }
+footer #social ul{
+    margin-left: 25px;
+
+}
+footer #social ul li{
+    display: inline-block;\
+}
+footer #social ul li a{
+    padding-right: 60px;
+}
+footer #social ul li a i{
+    font-size: 100px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: black;
+}
+footer #social ul li a i:hover{
+    color: #f99f3e;
+}
+footer p{
+    font-family: Lato;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 900;
+}
